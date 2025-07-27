@@ -1,5 +1,6 @@
 {
   "name": "tic-tac-toy",
+  "homepage": "https://moamensoroor.github.io/tic-tac-toy/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
