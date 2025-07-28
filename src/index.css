@@ -3,6 +3,11 @@
   --main-color: #61dafb;
   --secondary-color: #282c34;
   --text-color: white;
+
+  -mox-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+
 }
 
 

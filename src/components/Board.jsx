@@ -5,16 +5,10 @@ import {Square} from './Square';
 
 export function Board( {gameObj, onSquareClicked}) {
 
-  let status = "";
-  if(gameObj.winner){
-    status =  <div className="alert-status"> Winner is  {gameObj.winner} </div>;
-  }else{
-    status = <div className="alert-status" >Current Player is (  {gameObj.playerIsX? "X":"O"} ) </div>; ;
-  }
+
 
   return (
     <>
-    <div> {status}  </div>
     <div className="board-container">
       <div className="board">
           <Square value={gameObj.squares[0]} onSquareClicked={()=>onSquareClicked(0)} />
